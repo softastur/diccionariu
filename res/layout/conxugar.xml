@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- /*Diccionariu - http://code.google.com/p/diccionariu/ -->
+<!-- Copyright (C) 2012 itaravika itaravika@gmail.com -->
+
+<!-- Diccionariu is free software; you can redistribute it and/or modify -->
+<!-- it under the terms of the GNU General Public License as published by -->
+<!-- the Free Software Foundation; either version 3 of the License, or -->
+<!-- (at your option) any later version. -->
+
+<!-- Diccionariu is distributed in the hope that it will be useful, -->
+<!-- but WITHOUT ANY WARRANTY; without even the implied warranty of -->
+<!-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the -->
+<!-- GNU General Public License for more details. -->
+
+<!-- You should have received a copy of the GNU General Public License -->
+<!-- along with Diccionariu; if not, see http://www.gnu.org/licenses for more -->
+<!-- information. --> 
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" android:layout_width="fill_parent"
+    android:id="@+id/contenedor"> 
+    <LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/consulta"
+		android:layout_marginTop="5dip"
+  	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <EditText
+        	android:id="@+id/inputpalabra"
+        	android:maxLength="30"
+        	android:singleLine="true"
+        	android:inputType="textFilter"
+        	android:layout_marginLeft="5dip"
+        	android:layout_marginRight="5dip"  
+			android:layout_width="fill_parent"
+        	android:layout_height="48dip"/>
+	</LinearLayout>
+   	<ScrollView
+   		android:id="@+id/ScrollView01"  
+   		android:layout_marginTop="5dip"
+       	android:layout_below="@+id/consulta"
+     	android:layout_height="wrap_content"   
+     	android:layout_width="fill_parent">
+		<br.com.dina.ui.widget.UITableView android:id="@+id/tableViewResult" style="@style/UITableView" />
+   	</ScrollView>
+</RelativeLayout>

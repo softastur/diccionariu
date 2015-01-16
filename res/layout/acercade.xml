@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- /*Diccionariu - http://code.google.com/p/diccionariu/ -->
+<!-- Copyright (C) 2012 itaravika itaravika@gmail.com -->
+
+<!-- Diccionariu is free software; you can redistribute it and/or modify -->
+<!-- it under the terms of the GNU General Public License as published by -->
+<!-- the Free Software Foundation; either version 3 of the License, or -->
+<!-- (at your option) any later version. -->
+
+<!-- Diccionariu is distributed in the hope that it will be useful, -->
+<!-- but WITHOUT ANY WARRANTY; without even the implied warranty of -->
+<!-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the -->
+<!-- GNU General Public License for more details. -->
+
+<!-- You should have received a copy of the GNU General Public License -->
+<!-- along with Diccionariu; if not, see http://www.gnu.org/licenses for more -->
+<!-- information. --> 
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" android:layout_width="fill_parent">
+    <LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/cabacercade"
+  	    android:orientation="horizontal"
+  	    android:layout_gravity="center"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <ImageButton 
+			android:id="@+id/iconacercade"
+        	android:layout_width="48dip"
+        	android:layout_height="48dip"
+        	android:background="@drawable/icon"
+        	android:contentDescription="@string/app_name"/>
+        <TextView 
+			android:id="@+id/tvcabacercade"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/app_name"
+			android:textSize="30sp"
+			android:textColor="@color/negro"
+			android:layout_marginLeft="10dip"/>
+	</LinearLayout>
+ 
+	<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/detallegeneral"
+		android:layout_marginTop="15dip"
+        android:layout_below="@+id/cabacercade" 
+  	    android:orientation="vertical"
+  	    android:layout_gravity="center"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+		<TextView 
+			android:id="@+id/tvdetallegeneral"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/acercaDeDG"
+			android:textSize="14sp"
+			android:textColor="@color/negro"/>
+		<TextView 
+			android:id="@+id/detallegeneralemail"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/acercaDeEmail"
+			android:textSize="14sp"
+			android:textColor="@color/negro"
+			android:layout_marginTop="15dip"/>
+	</LinearLayout>
+	<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/lldetallefuncionamiento"
+		android:layout_marginTop="15dip"
+        android:layout_below="@+id/detallegeneral" 
+  	    android:orientation="vertical"
+  	    android:layout_gravity="center"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+		<TextView 
+			android:id="@+id/detallefuncionamiento"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/acercaDeFU"
+			android:textSize="14sp"
+			android:textColor="@color/negro"/>
+	</LinearLayout>
+	<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/detallefinal"
+		android:layout_marginTop="15dip"
+        android:layout_below="@+id/lldetallefuncionamiento" 
+  	    android:orientation="vertical"
+  	    android:layout_gravity="center"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+		<TextView 
+			android:id="@+id/tvdetallefinal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/acercaDeFI"
+			android:textSize="14sp"
+			android:textColor="@color/negro"/>
+	</LinearLayout> 
+</RelativeLayout>

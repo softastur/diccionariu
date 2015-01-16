@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- /*Diccionariu - http://code.google.com/p/diccionariu/ -->
+<!-- Copyright (C) 2012 itaravika itaravika@gmail.com -->
+
+<!-- Diccionariu is free software; you can redistribute it and/or modify -->
+<!-- it under the terms of the GNU General Public License as published by -->
+<!-- the Free Software Foundation; either version 3 of the License, or -->
+<!-- (at your option) any later version. -->
+
+<!-- Diccionariu is distributed in the hope that it will be useful, -->
+<!-- but WITHOUT ANY WARRANTY; without even the implied warranty of -->
+<!-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the -->
+<!-- GNU General Public License for more details. -->
+
+<!-- You should have received a copy of the GNU General Public License -->
+<!-- along with Diccionariu; if not, see http://www.gnu.org/licenses for more -->
+<!-- information. --> 
+
+<resources>
+    <string name="app_name">Diccionariu</string>
+    <string name="iniciu">Iniciu</string>
+    <string name="noEncontrada">Nun s\'alcontró nenguna pallabra</string>
+    <string name="tvpallabra">Pallabra:</string>
+    <string name="palabraObligatoria">Pallabra obligatoria</string>
+    <string name="dialerBuscar">Buscando...</string>
+    <string name="sinConexion">Nun hai conexón a la rede</string>
+    <string name="tvtitulo">Escoyer pallabra:</string>
+    <string name="listaPalabrasVacia">Nun hai pallabres asemeyaes</string>
+    <string name="about">Tocante a</string>
+    <string name="acercaDe">Tocante a</string>
+    <string name="acercaDeDG">(c) itaravika 2012\n\nDiccionariu 0.3.1 apurre un diccionariu online basáu nes definiciones del diccionariu DALLA (Academia de la llingua Asturiana), un conxugador online  basáu nes definiciones de ESLEMA (seminariu de filoloxía asturiana) y un traductor online basáu tamién nes definiciones de ESLEMA.\n\nSi quies echar un gabitu o cualquier consulta, puedes facelo en:</string>
+	<string name="acercaDeEmail">itaravika@gmail.com</string> 
+    <string name="acercaDeFU">Esti diccionariu namái funciona con conexón a la rede.</string>
+    <string name="acercaDeFI">Cola collaboración de Softastur\n\nhttp://softastur.org \n\nGracies por instalar Diccionariu!!!</string>
+	<string name="licencia">Llicencia</string>
+	<string name="verLicencia">Ver llicencia</string>
+	<string name="listaPalabras">Pallabres asemeyaes</string>
+	<string name="verSignificau">Ver significáu de</string>
+	<string name="copy">Copiar testu</string>
+	<string name="palabraSeleccionada">pallabra escoyida, calca\'l botón pa guetar</string>
+	<string name="textoCopiado">testu copiáu al portapapeles</string>
+	<string name="textoNoCopiado">Nun hai testu a copiar</string>
+	<string name="licenciaLibre">
+	Diccionariu -\nhttp://code.google.com/p/diccionariu\nCopyright
+	(C) 2012 itaravika\n\nDiccionariu is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 3 of the License, or
+	(at your option) any later version.\n\nDiccionariu is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License
+	along with Diccionariu; if not, see http://www.gnu.org/licenses for more
+	information.
+	</string>
+	
+	<string name="conxugar">Conxugar</string>
+	<string name="verboObligatorio">Verbu obligatorio</string>
+	<string name="guetarPallabra">Guetar pallabra</string>
+	<string name="conxugarVerbu">Conxugar verbu</string> 
+	<string name="traducir">Traducir</string>
+	<string name="traducirTestu">Traducir testu</string>
+	<string name="textoObligatorio">Testu obligatorio</string>
+	<string name="rbEsAst">Castellán - Asturianu</string>
+	<string name="rbAstEs">Asturianu - Castellán</string>
+	<string name="dialerConxugar">Conxugando...</string>
+	<string name="dialerTraducir">Traduciendo...</string>
+	<string name="verboNoExiste">nun esiste\'l verbu a conxugar</string>
+	
+</resources>
